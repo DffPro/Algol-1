@@ -7,7 +7,7 @@ public class Main2 {
         System.out.println(signal(12, -3, 4));
         System.out.println(signal(5, 2, 3));
         System.out.println(signal(5, 2, 0));
-    }`
+    }
 
     public static int signal(int first, int difference, int n) {
         if (n == 0) {
