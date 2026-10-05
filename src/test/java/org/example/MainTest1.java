@@ -1,14 +1,15 @@
-package org.example;
+package org.example; // Убедитесь, что пакет совпадает с вашим, или удалите эту строку, если пакет не используется
 
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+class Main1Test {
 
-class MainTest1 {
     @Test
-    void testSignalLevel() {
-        assertEquals(0, Main.signal(12, -3, 4));
-        assertEquals(11, Main.signal(5, 2, 3));
-        assertEquals(5, Main.signal(5, 2, 0));
+    void testSignal() {
+        assertEquals(0, Main1.signal(12, -3, 4));
+        assertEquals(11, Main1.signal(5, 2, 3));
+        assertEquals(7, Main1.signal(7, 4, 0));
+        assertEquals(10, Main1.signal(0, 5, 2));
     }
 }
