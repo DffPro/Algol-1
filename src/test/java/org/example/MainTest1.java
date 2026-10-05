@@ -1,4 +1,4 @@
-package org.example; // Убедитесь, что пакет совпадает с вашим, или удалите эту строку, если пакет не используется
+package org.example;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
