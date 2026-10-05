@@ -14,7 +14,7 @@ public class Main {
         if (exponent == 0) {
             return 1;
         }
-ww
+
         return base * power(base, exponent - 1);
 
     }
