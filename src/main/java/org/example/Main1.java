@@ -10,11 +10,9 @@ public class Main1 {
     }
 
     public static int signal(int first, int difference, int n) {
-        // Базовый случай: signal(0) = first или n = 0 -> first
         if (n == 0) {
             return first;
         }
-        // Рекурсивный случай: signal(n) = signal(n - 1) + difference
         return signal(first, difference, n - 1) + difference;
     }
 }
